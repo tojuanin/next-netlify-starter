@@ -1,23 +1,21 @@
-import Head from 'next/head'
-import Header from '@components/Header'
-import Footer from '@components/Footer'
+import Head from "next/head";
+import Header from "@components/Header";
+import Footer from "@components/Footer";
 
 export default function Home() {
   return (
     <div className="container">
       <Head>
-        <title>Next.js Starter!</title>
+        <title>Diseño y programación web</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main>
         <Header title="unidevsidad" />
-        <p className="description">
-          Bienvenido
-        </p>
+        <p className="description">Bienvenido</p>
       </main>
 
       <Footer />
     </div>
-  )
+  );
 }
